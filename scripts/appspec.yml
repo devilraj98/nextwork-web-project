@@ -1,7 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: target/*.jar
+  - target/*.jar
+  - target/*.war
     destination: /usr/share/tomcat/webapps/
 hooks:
   BeforeInstall:
