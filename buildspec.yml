@@ -15,7 +15,7 @@ phases:
       - mvn -s settings.xml compile
       - mvn clean package
       - echo "Listing target directory:"
-      - ls -l target
+      - ls -la target
   post_build:
     commands:
       - echo Build completed on `date`
