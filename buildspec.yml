@@ -24,4 +24,6 @@ artifacts:
   files:
     - target/*.jar
     - target/*.war
+    - appspec.yml
+    - scripts/**/*
   discard-paths: no
